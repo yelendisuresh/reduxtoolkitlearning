@@ -1,0 +1,111 @@
+body {
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 10px;
+  padding: 10px;
+}
+
+.grid-header {
+  font-size: 120%;
+  color: #065c8d;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #065c8d;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 6px;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid #000000;
+  transition: box-shadow 0.4s;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 1px #1868cf;
+}
+
+.button {
+  margin: 5px;
+  padding: 6px 15px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 1px 1px #c0bfbf;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-blue {
+  background-color: #045e92;
+  color: #ffffff;
+}
+
+.button-blue:hover {
+  background-color: #034469;
+}
+
+.button-green {
+  background-color: #02885b;
+  color: #ffffff;
+}
+
+.button-green:hover {
+  background-color: #035339;
+}
+
+.button-red {
+  background-color: #cc0728;
+  color: #ffffff;
+}
+
+.button-red:hover {
+  background-color: #8d0219;
+}
+
+.grid-container {
+  padding: 4px;
+  border: 1px solid #cac9c9;
+  box-shadow: 1px 1px 4px 1px #cccaca;
+  font-size: 0.8em;
+  margin-top: 9px;
+}
+
+.grid {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grid thead tr {
+  border-bottom: 2px solid #b4b4b4;
+}
+
+.grid thead tr th {
+  padding: 6px 2px;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #290da7;
+}
+
+.grid tbody tr:not(tr:last-child) {
+  border-bottom: 1px solid #b4b4b4;
+  transition: background-color 0.4s;
+}
+
+.grid tbody tr td {
+  padding: 4px;
+}
+
+.grid tbody tr:hover {
+  background-color: #e6e3e3;
+}
